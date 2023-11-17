@@ -1,0 +1,1602 @@
+/* ===================================================
+                Extra large area start
+======================================================*/
+@media(min-width: 1200px) and (max-width: 1300.99px) {
+    #about .header h3 {
+        padding-right: 180px;
+    }
+
+    #games .header h3 {
+        padding-left: 170px;
+    }
+
+    #video .header h3 {
+        padding-right: 150px;
+    }
+
+    #top_game .header h3 {
+        padding-left: 90px;
+    }
+
+    #accesorise .header h3 {
+        padding-right: 155px;
+    }
+
+    #team .header h3 {
+        padding-left: 155px;
+    }
+
+    .team_text .team_text_inner p {
+        padding-right: 80px;
+    }
+
+    #QNA .header h3 {
+        padding-right: 175px;
+    }
+    .foot_input a {
+        right: 6px;
+    }
+}
+
+/* ===================================================
+                Extra large area end
+======================================================*/
+
+/* ===================================================
+                 large area start
+======================================================*/
+@media(min-width: 992px) and (max-width: 1199.99px) {
+
+    /* ---- about area start ----------- */
+    #about .header h3 {
+        padding-right: 0;
+    }
+
+    /* ---- about area end ----------- */
+
+    /* ---- games area start ----------- */
+    #games .header h3 {
+        padding-left: 0;
+    }
+
+    #games .header h3::after {
+        left: 300px;
+    }
+
+    .game_left_shape {
+        height: 285px;
+    }
+
+    .game_left img {
+        left: -3px;
+        top: -219px;
+        transform: scale(0.8);
+    }
+
+    /* ---- games area end ----------- */
+
+    /* ---- video area start ----------- */
+    #video .header h3 {
+        padding-right: 0;
+    }
+
+    .team_left h4 {
+        right: 40px;
+    }
+
+    .team_right h4 {
+        left: 35px;
+    }
+
+    .team_right img {
+        margin-left: 190px;
+    }
+
+    /* ---- video area end ----------- */
+
+    /* ---- Top_game area start ----------- */
+    #top_game .header h3 {
+        padding-left: 0;
+    }
+
+    #top_game .header h3::after {
+        left: 250px;
+    }
+
+    /* ---- Top_game area end ----------- */
+
+    /* ---- accesorise area start ----------- */
+    #accesorise .header h3 {
+        padding-right: 0;
+    }
+
+    /* ---- accesorise area end ----------- */
+
+    /* ---- team area start ----------- */
+    #team .header h3 {
+        padding-left: 0;
+    }
+
+    #team .header h3::after {
+        left: 330px;
+    }
+
+    .team_text .team_text_inner p {
+        padding-right: 90px;
+    }
+
+    /* ---- team area end ----------- */
+
+    /* ---- Q&A area start ----------- */
+    #QNA .header h3 {
+        padding-right: 0;
+    }
+
+    .Qna_wrapper::before {
+        left: 413px;
+        height: 360px;
+    }
+
+    /* ---- Q&A area end ----------- */
+
+    /* ---- footer area start ----------- */
+    .foot_input input {
+        width: 250px;
+    }
+
+    .foot_input a {
+        right: 5px;
+    }
+
+    /* ---- footer area end ----------- */
+}
+
+/* ===================================================
+                 large area end
+======================================================*/
+
+/* ===================================================
+                 medium area start
+======================================================*/
+@media(min-width: 768px) and (max-width: 991.99px) {
+
+    .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .search_inner form input {
+        width: 100%;
+    }
+
+    .search_inner form {
+        display: block;
+    }
+
+    .search_inner form a i {
+        right: 10px;
+    }
+
+    .search_inner .close i {
+        left: 20px;
+        top: 20px;
+    }
+
+    .login_inner {
+        width: 100%;
+        background: #000000;
+        padding: 20px 20px 30px 20px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .login {
+        background: #000000;
+    }
+
+    .login_middle form input {
+        width: 100%;
+    }
+
+    .login_header h3 {
+        margin-bottom: 50px;
+    }
+
+    .forget a {
+        margin-bottom: 50px;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .sign {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .nav-icon {
+        margin-top: 50px !important;
+    }
+
+    .bttb h3 {
+        display: none;
+    }
+
+    .toggler {
+        font-size: 30px;
+    }
+
+    /* ----------- Navbar and sidebar area end ----------- */
+
+    /* ----------- banner  area start ----------- */
+    #banner {
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+
+    .banner-text h1 {
+        font-size: 50px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        display: inline-block;
+    }
+
+    .banner-text h1::after {
+        right: -100px;
+        bottom: 7px;
+    }
+
+    .banner-text h4 {
+        letter-spacing: 8px;
+    }
+
+    .banner-text p {
+        line-height: 24px;
+        font-weight: 300;
+        padding-right: 130px;
+    }
+
+    .banner-icon {
+        margin-top: 80px;
+    }
+
+    /* ----------- banner  area end ----------- */
+
+    /* ----------- about area start ----------- */
+    #about {
+        padding-top: 40px;
+    }
+
+    #about .header h3 {
+        padding: 0 70px;
+    }
+
+    .header h3 {
+        font-size: 35px;
+        letter-spacing: 7px;
+        line-height: 45px;
+        padding: 0 110px;
+    }
+
+    .header {
+        text-align: center !important;
+    }
+
+    #about .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -30px;
+    }
+
+    #about .header {
+        margin-bottom: 70px;
+    }
+
+    .about-text h4 {
+        margin-bottom: -15px;
+        margin-top: 25px;
+    }
+
+    .about-text span {
+        padding-right: 70px;
+    }
+
+    .about-counter-text {
+        margin-top: 40px;
+    }
+
+    /* ----------- about area end ----------- */
+    /* ----------- games area start ---------- */
+    #games {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    #games .header h3 {
+        padding: 0 70px;
+    }
+
+    #games .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    .game-arrows {
+        display: none;
+    }
+
+    /* ----------- games area end ---------- */
+
+    /* ----------- video area start ---------- */
+    #video .header {
+        margin-bottom: 80px;
+    }
+
+    #video .header h3 {
+        padding: 0 70px;
+    }
+
+    #video .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    .inner_videos img {
+        filter: grayscale(0);
+    }
+    #video .main_items_tour.slick-center .inner_videos {
+        transform: scale(1);
+    }
+    .overlay_text h5 {
+        right: -115px;
+    }
+
+    .time h4 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .team_right img {
+        margin: 0;
+    }
+
+    .team_right {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 45px;
+        clip-path: none;
+    }
+
+    .teamL_img {
+        padding: 0 20px;
+    }
+
+    /* ----------- video area end ---------- */
+
+    /* ----------- top_game area start ---------- */
+    #top_game .header h3 {
+        padding: 0 70px;
+    }
+
+    #top_game .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    .top_game_slider {
+        margin-top: 80px;
+    }
+
+    .catalog_header h4 {
+        padding-top: 30px;
+    }
+
+    .catalog_wrapper {
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+
+    .catalog_inner p {
+        padding-right: 60px;
+    }
+
+    .catalog_inner a {
+        margin-bottom: 50px;
+    }
+
+    /* ----------- top_game area end ---------- */
+
+    /* ----------- accesorise area end ---------- */
+    #accesorise .header h3 {
+        padding: 0 70px;
+    }
+
+    #accesorise .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    #accesorise .header {
+        margin-bottom: 80px;
+    }
+
+    .accesorise_inner img {
+        width: 100%;
+    }
+
+    .accesorise_arrows .Anext-arrow,
+    .accesorise_arrows .Aprev-arrow {
+        display: none !important;
+    }
+
+    /* ----------- accesorise area end ---------- */
+
+    /* ----------- team area start ---------- */
+    #team .header {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    #team .header h3 {
+        padding: 0 70px;
+    }
+
+    #team .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    .team_text h3 {
+        margin-bottom: 5px;
+    }
+
+    .team_inner {
+        margin-bottom: 12px;
+    }
+
+    .team_left {
+        clip-path: none;
+    }
+
+    /* ----------- team area end ---------- */
+
+    /* ----------- Q&A area start ---------- */
+    #QNA .header h3 {
+        padding: 0 70px;
+    }
+
+    #QNA .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    #QNA .header {
+        margin-bottom: 80px;
+    }
+
+    .q_num {
+        margin-bottom: 15px;
+    }
+
+    .question p {
+        margin-bottom: 60px;
+    }
+
+    .Qna_wrapper {
+        margin-bottom: 0px;
+    }
+
+    .Qna_wrapper::before {
+        display: none;
+    }
+
+    .Qna_wrapper::after {
+        display: none;
+    }
+
+    #QNA {
+        padding-bottom: 30px;
+    }
+
+    /* ----------- Q&A area end ---------- */
+
+    /* ----------- footer area start ---------- */
+    .footT_text h2 {
+        font-size: 38px;
+    }
+
+    .foot_input input {
+        margin-top: 10px;
+        width: 50%;
+        margin-left: 50px;
+    }
+
+    .foot_input {
+        margin-bottom: 20px;
+    }
+
+    .foot_input a {
+        right: 225px;
+        top: 10px;
+    }
+
+    .footM_icon {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .foot_links {
+        text-align: center;
+    }
+
+    .foot_teams {
+        text-align: center;
+    }
+
+    .foot_gal_img img {
+        margin-bottom: 20px;
+    }
+
+    .footer_bootom {
+        margin-top: 25px;
+    }
+
+    /* ----------- footer area end ---------- */
+}
+
+/* ===================================================
+                 medium area end
+======================================================*/
+
+/* ===================================================
+                 small area start
+======================================================*/
+@media(min-width: 576px) and (max-width: 767.99px) {
+
+    .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .search_inner form {
+        display: block;
+    }
+
+    .search_inner form input {
+        width: 100%;
+    }
+
+    .search_inner form a i {
+        right: 10px;
+    }
+
+    .search_inner .close i {
+        left: 20px;
+        top: 20px;
+    }
+
+    .login_inner {
+        width: 100%;
+        background: #000000;
+        padding: 20px 20px 30px 20px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .login {
+        background: #000000;
+    }
+
+    .login_middle form input {
+        width: 100%;
+    }
+
+    .login_header h3 {
+        margin-bottom: 50px;
+    }
+
+    .forget a {
+        margin-bottom: 50px;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .sign {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .nav-icon {
+        margin-top: 50px !important;
+    }
+
+    .bttb h3 {
+        display: none;
+    }
+
+    /* ----------- Navbar and sidebar area end ----------- */
+
+    /* ----------- banner  area start ----------- */
+    #banner {
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .banner-text {
+        animation-name: none;
+    }
+
+    .banner-text h1::after {
+        right: -85px;
+        bottom: 5px;
+        width: 80px;
+    }
+
+    .banner-text h4 {
+        font-size: 27px;
+        letter-spacing: 8px;
+    }
+
+    .banner-text p {
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 300;
+        padding-right: 90px;
+    }
+
+    .banner-icon {
+        margin-top: 80px;
+    }
+
+    /* ----------- banner  area end ----------- */
+
+    /* ----------- about area start ----------- */
+    #about {
+        padding-top: 40px;
+    }
+
+    #about .header h3 {
+        padding: 0 70px;
+    }
+
+    .header h3 {
+        font-size: 30px;
+        letter-spacing: 7px;
+        line-height: 45px;
+    }
+
+    .header {
+        text-align: center !important;
+    }
+
+    #about .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -30px;
+    }
+
+    .about-counter-text,
+    .about-img,
+    .about-text {
+        animation-name: none;
+    }
+
+    #about .header {
+        margin-bottom: 70px;
+    }
+
+    .about-text h4 {
+        font-size: 25px;
+        margin-bottom: -15px;
+        margin-top: 25px;
+    }
+
+    .about-text .typejs h4 span {
+        font-size: 25px;
+    }
+
+    .about-text p {
+        font-size: 17px;
+    }
+
+    .about-text span {
+        font-size: 16px;
+        padding-right: 40px;
+    }
+
+    .about-counter-text {
+        margin-top: 40px;
+    }
+
+    /* ----------- about area end ----------- */
+    /* ----------- games area start ---------- */
+    #games {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    #games .header h3 {
+        padding-left: 0;
+    }
+
+    #games .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    .game-arrows {
+        display: none;
+    }
+
+    .game_slider {
+        animation-name: none;
+    }
+
+    /* ----------- games area end ---------- */
+
+    /* ----------- video area start ---------- */
+    #video .header {
+        margin-bottom: 80px;
+    }
+
+    #video .header h3 {
+        padding-right: 0;
+    }
+
+    #video .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+    #video .main_items_tour.slick-center .inner_videos {
+        transform: scale(1);
+    }
+    .video_slider {
+        animation-name: none;
+    }
+
+    .inner_videos img {
+        filter: grayscale(0);
+    }
+
+    .matches h3 {
+        margin-bottom: 30px;
+    }
+
+    .team_left h4 {
+        font-size: 30px;
+        right: 40px;
+    }
+
+    .overlay_text h5 {
+        right: -280px;
+    }
+
+    .time h4 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .team_right,
+    .team_left {
+        animation-name: none;
+        clip-path: none;
+    }
+
+    .team_right img {
+        margin: 0;
+    }
+
+    .team_right {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .team_right h4 {
+        font-size: 30px;
+        left: 35px;
+    }
+
+    .teamL_img {
+        padding: 0 20px;
+    }
+
+    /* ----------- video area end ---------- */
+
+    /* ----------- top_game area start ---------- */
+    #top_game .header h3 {
+        padding-left: 0;
+    }
+
+    #top_game .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    .top_game_slider {
+        animation-name: none;
+    }
+
+    .top_game_slider {
+        margin-top: 80px;
+    }
+
+    .catalog_header h4 {
+        padding-top: 30px;
+    }
+
+    .catalog_inner h3 {
+        font-size: 30px;
+    }
+
+    .catalog_wrapper {
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+
+    .catalog_inner p {
+        padding-right: 60px;
+    }
+
+    .catalog_inner a {
+        margin-bottom: 50px;
+    }
+
+    /* ----------- top_game area end ---------- */
+
+    /* ----------- accesorise area end ---------- */
+    #accesorise .header h3 {
+        padding-right: 0;
+    }
+
+    #accesorise .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    #accesorise .header {
+        margin-bottom: 80px;
+    }
+
+    .accesorise_inner img {
+        width: 100%;
+    }
+
+    .accesorise_arrows .Anext-arrow,
+    .accesorise_arrows .Aprev-arrow {
+        display: none !important;
+    }
+
+    .accesorise_slider {
+        animation-name: none;
+    }
+
+    /* ----------- accesorise area end ---------- */
+
+    /* ----------- team area start ---------- */
+    #team .header h3 {
+        padding-left: 0;
+    }
+
+    #team .header {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    #team .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    .team_text h3 {
+        margin-bottom: 5px;
+    }
+
+    .team_text .team_text_inner p {
+        font-size: 15px;
+        font-weight: 300;
+        padding-right: 80px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    .team_text {
+        padding: 10px 30px;
+        bottom: -100px;
+    }
+
+    .team_inner .team_icon {
+        bottom: 10px;
+    }
+
+    .team_inner {
+        margin-bottom: 12px;
+        animation-name: none;
+    }
+
+    /* ----------- team area end ---------- */
+    /* ----------- Q&A area start ---------- */
+    #QNA .header h3 {
+        padding-right: 0;
+    }
+
+    #QNA .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    #QNA .header {
+        margin-bottom: 80px;
+    }
+
+    .q_num {
+        margin-bottom: 15px;
+    }
+
+    .Qna_inner {
+        animation-name: none;
+    }
+
+    .question p {
+        line-height: 20px;
+        margin-bottom: 60px;
+    }
+
+    .Qna_wrapper {
+        margin-bottom: 0px;
+    }
+
+    .Qna_wrapper::before {
+        display: none;
+    }
+
+    .Qna_wrapper::after {
+        display: none;
+    }
+
+    #QNA {
+        padding-bottom: 30px;
+    }
+
+    /* ----------- Q&A area end ---------- */
+
+    /* ----------- footer area start ---------- */
+    .footT_text h2 {
+        font-size: 32px;
+    }
+
+    .foot_input input {
+        margin-top: 10px;
+        width: 50%;
+        margin-left: 50px;
+    }
+
+    .foot_input {
+        margin-bottom: 20px;
+    }
+
+    .footer_top,
+    .footer_middle {
+        animation-name: none;
+    }
+
+    .foot_input a {
+        right: 140px;
+        top: 10px;
+    }
+
+    .footM_text p {
+        margin-top: 5px;
+        margin-bottom: 40px;
+    }
+
+    .footM_icon {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .foot_links {
+        text-align: center;
+    }
+
+    .foot_teams {
+        text-align: center;
+    }
+
+    .foot_gal_img img {
+        margin-bottom: 20px;
+    }
+
+    .footer_bootom {
+        margin-top: 25px;
+    }
+
+    /* ----------- footer area end ---------- */
+}
+
+/* ===================================================
+                 small area end
+======================================================*/
+
+/* ===================================================
+                extra small area start
+======================================================*/
+@media(max-width: 575.99px) {
+
+    .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .search_inner form {
+        display: block;
+    }
+
+    .search_inner form input {
+        width: 100%;
+    }
+
+    .search_inner form a i {
+        right: 10px;
+    }
+
+    .search_inner .close i {
+        left: 20px;
+        top: 20px;
+    }
+
+    .login_inner {
+        width: 100%;
+        background: #000000;
+        padding: 20px 20px 30px 20px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .login {
+        background: #000000;
+    }
+
+    .login_middle form input {
+        width: 100%;
+    }
+
+    .login_header h3 {
+        margin-bottom: 50px;
+    }
+
+    .forget a {
+        margin-bottom: 50px;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .sign {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .nav-icon {
+        margin-top: 50px !important;
+    }
+
+    .bttb h3 {
+        display: none;
+    }
+
+    /* ----------- Navbar and sidebar area end ----------- */
+
+    /* ----------- banner  area start ----------- */
+    #banner {
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+
+    .banner-text h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .banner-text {
+        animation-name: none;
+    }
+
+    .banner-text h1::after {
+        right: -54px;
+        bottom: 5px;
+        width: 50px;
+    }
+
+    .banner-text h4 {
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+
+    .banner-text p {
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 300;
+    }
+
+    .banner-icon {
+        margin-top: 50px;
+    }
+
+    /* ----------- banner  area end ----------- */
+
+    /* ----------- about area start ----------- */
+    #about {
+        padding-top: 40px;
+    }
+
+    #about .header h3 {
+        padding-right: 0;
+    }
+
+    .about-img {
+        animation-name: none;
+    }
+
+    .about-text {
+        animation-name: none;
+    }
+
+    .about-counter-text {
+        animation-name: none;
+    }
+
+    .header h3 {
+        font-size: 27px;
+        letter-spacing: 5px;
+    }
+
+    .header {
+        text-align: center !important;
+    }
+
+    #about .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -30px;
+    }
+
+    #about .header {
+        margin-bottom: 70px;
+    }
+
+    .about-text h4 {
+        font-size: 20px;
+        margin-bottom: -15px;
+        margin-top: 25px;
+    }
+
+    .about-text .typejs h4 span {
+        font-size: 20px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+    }
+
+    .about-text span {
+        font-size: 15px;
+    }
+
+    .about-text a {
+        margin-top: 20px;
+    }
+
+    .about-counter-text {
+        margin-top: 40px;
+    }
+
+    /* ----------- about area end ----------- */
+
+    /* ----------- games area start ---------- */
+    #games {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    #games .header h3 {
+        padding-left: 0;
+    }
+
+    #games .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    .game_slider {
+        animation-name: none;
+    }
+
+    .game-arrows {
+        display: none;
+    }
+
+    /* ----------- games area end ---------- */
+
+    /* ----------- video area start ---------- */
+    #video .header {
+        margin-bottom: 80px;
+    }
+
+    #video .header h3 {
+        padding-right: 0;
+    }
+    #video .main_items_tour.slick-center .inner_videos {
+        transform: scale(1);
+    }
+    #video .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    .inner_videos img {
+        filter: grayscale(0);
+    }
+
+    .video_slider {
+        animation-name: none;
+    }
+
+    .matches h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .overlay_text h5 {
+        right: -80px;
+    }
+
+    .team_left h4 {
+        font-size: 30px;
+        right: 40px;
+    }
+
+    .team_right,
+    .team_left {
+        animation-name: none;
+    }
+
+    .time h4 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .team_right img {
+        margin: 0;
+    }
+
+    .team_right,
+    .team_left {
+        clip-path: none;
+    }
+
+    .team_right h4 {
+        font-size: 30px;
+        left: 35px;
+    }
+
+    /* ----------- video area end ---------- */
+
+    /* ----------- top_game area start ---------- */
+    #top_game .header h3 {
+        padding-left: 0;
+    }
+
+    #top_game .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    .top_game_slider {
+        margin-top: 80px;
+    }
+
+    .top_game_slider {
+        animation-name: none;
+    }
+
+    .catalog_header h4 {
+        padding-top: 0px;
+    }
+
+    .catalog_inner h3 {
+        font-size: 25px;
+    }
+
+    .catalog_wrapper {
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+
+    .catalog_inner p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .catalog_inner a {
+        margin-bottom: 50px;
+    }
+
+    /* ----------- top_game area end ---------- */
+
+    /* ----------- accesorise area end ---------- */
+    #accesorise .header h3 {
+        padding-right: 0;
+    }
+
+    #accesorise .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    #accesorise .header {
+        margin-bottom: 80px;
+    }
+
+    .accesorise_arrows .Anext-arrow,
+    .accesorise_arrows .Aprev-arrow {
+        display: none !important;
+    }
+
+    .accesorise_inner img {
+        width: 100%;
+    }
+
+    .accesorise_slider {
+        animation-name: none;
+    }
+
+    /* ----------- accesorise area end ---------- */
+
+    /* ----------- team area start ---------- */
+    #team .header {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    #team .header h3 {
+        padding-left: 0;
+    }
+
+    #team .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    .team_text h3 {
+        font-size: 25px;
+        ;
+        margin-bottom: 5px;
+    }
+
+    .team_text .team_text_inner p {
+        font-size: 13px;
+        font-weight: 300;
+        padding-right: 0px;
+        margin-bottom: 7px;
+        line-height: 16px;
+    }
+
+    .team_text .team_text_inner .team-button a {
+        font-size: 14px;
+        padding: 2px 10px 5px 10px;
+
+    }
+
+    .team_icon a {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .team_text {
+        padding: 10px 30px;
+        bottom: -85px;
+    }
+
+    .team_inner .team_icon {
+        bottom: 10px;
+    }
+
+    .team_inner {
+        margin-bottom: 12px;
+        animation-name: none;
+    }
+
+    /* ----------- team area end ---------- */
+
+    /* ----------- Q&A area start ---------- */
+    #QNA .header h3 {
+        padding: 0;
+    }
+
+    #QNA .header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+
+    #QNA .header {
+        margin-bottom: 80px;
+    }
+
+    .q_num h3 {
+        font-size: 35px;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .q_num {
+        margin-bottom: 15px;
+    }
+
+    .question p {
+        padding-right: 0px;
+        line-height: 20px;
+        margin-bottom: 50px;
+    }
+
+    .Qna_wrapper {
+        margin-bottom: 0px;
+    }
+
+    .Qna_wrapper::before {
+        display: none;
+    }
+
+    .Qna_wrapper::after {
+        display: none;
+    }
+
+    #QNA {
+        padding-bottom: 30px;
+    }
+
+    .Qna_inner {
+        animation-name: none;
+    }
+
+    /* ----------- Q&A area end ---------- */
+
+    /* ----------- footer area start ---------- */
+    .footT_text h2 {
+        font-size: 25px;
+    }
+
+    .foot_input input {
+        margin-top: 10px;
+        width: 80%;
+        margin-left: 5px;
+    }
+
+    .foot_input {
+        margin-bottom: 20px;
+    }
+
+    .foot_input a {
+        right: 15px;
+        top: 10px;
+    }
+
+    .footer_top,
+    .footer_middle {
+        animation-name: none;
+    }
+
+    .footM_text p {
+        font-size: 15px;
+        padding-right: 0;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    .footM_icon {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .foot_links {
+        text-align: center;
+    }
+
+    .foot_teams {
+        text-align: center;
+    }
+
+    .foot_gal_img img {
+        margin-bottom: 20px;
+    }
+
+    .footer_bootom {
+        margin-top: 25px;
+    }
+
+    /* ----------- footer area end ---------- */
+}
+
+@media(min-width: 500px) and (max-width: 575.99px) {
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .banner-text h1::after {
+        right: -75px;
+        width: 70px;
+    }
+
+    .banner-text p {
+        padding-right: 60px;
+    }
+
+    .header {
+        padding: 0 70px;
+    }
+
+    .header h3 {
+        line-height: 35px;
+    }
+
+    .about-text h4 {
+        font-size: 22px;
+    }
+
+    .about-text .typejs h4 span {
+        font-size: 22px;
+    }
+
+    .catalog_inner p {
+        padding-right: 50px;
+    }
+
+    .team_text .team_text_inner p {
+        font-size: 14px;
+        margin-bottom: 10px;
+        line-height: 17px;
+        padding-right: 60px;
+    }
+
+    .team_right,
+    .team_left {
+        padding: 0 50px;
+    }
+
+    .question p {
+        padding-right: 50px;
+    }
+}
+
+/* ===================================================
+                extra small area start
+======================================================*/
